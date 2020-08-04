@@ -76,13 +76,26 @@ body {
   background-image: url('https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
+  margin-top: 150px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 60px;
   color: white;
-  font-family: Serif;
+  font-family: Lucida Handwriting;
+  font-weight: 200;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: Lucida Sans;
 }
 
 #profile_pic{
@@ -99,4 +112,11 @@ h1 {
 
 .hideButton{
   cursor: pointer;
+}
+
+#intro-p{
+  margin: 100px 500px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
 }

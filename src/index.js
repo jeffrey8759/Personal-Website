@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import logo from './circle-cropped.png';
 class HiddenInfo extends React.Component {
   constructor(props) {
     super(props);
@@ -49,9 +50,12 @@ class MainPage extends 	React.Component {
           <a href="#">Contact</a>
         </div>
         <div class='mainFrame'> 
-          <h1> Jeffrey Cheng </h1>
-          <img id='profile_pic' src='https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/106243546_3354141631302843_4473972968588926169_n.jpg?_nc_cat=108&_nc_sid=09cbfe&_nc_ohc=nRIdlhMQhZAAX-jNyOo&_nc_ht=scontent-sea1-1.xx&oh=2fe648b2eb90bdd87b04f241654e5ada&oe=5F434002'/>
-          <HiddenInfo />
+          <h1> I'm Jeffrey. </h1>
+          <h2> a front-end developer. </h2>
+          <img id='profile_pic' src={logo}/>
+          <p id='intro-p'> 
+              I am a recent graduate from the University of Washington with a Bachelor degree in Computer Science.
+          </p>
         </div>
       </div>
     )
