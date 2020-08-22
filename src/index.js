@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import logo from './circle-cropped.png';
 import Drawer from './drawer';
-import img1 from './IMG_2727.heic';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 class MainPage extends 	React.Component {
@@ -13,9 +18,29 @@ class MainPage extends 	React.Component {
       <head>
         <title>Jeffrey Cheng</title>
       </head>
-      <div class="main">
-        <Drawer class="drawer"/>
-        <div class='mainFrame'> 
+        <div class="main">
+          <Drawer class="drawer"/>
+	  <Router>
+	    <Link to="/contact">Contact</Link>
+          <Switch>
+            <Route path="/contact">
+	      <Contact />
+	    </Route>
+
+	    <Route path="/">
+	      <About />
+	    </Route>
+	  </Switch>
+	  </Router>
+	</div>
+      </html>
+    )
+	}
+}
+
+function About() {
+  return (
+    <div class='mainFrame'> 
           <h1> I'm Jeffrey. </h1>
           <h2> a front-end developer. </h2>
           <img id='profile_pic' src={logo}/>
@@ -33,13 +58,16 @@ class MainPage extends 	React.Component {
               model. The data we fed into the model came from the formation of traffic analysis zone, which I created from 
               iterating through each ride record.
           </p>
-          <img src={img1}/>
           </div>
         </div>
-      </div>
-      </html>
-    )
-	}
+  );
+}
+function Contact() {
+  return (
+    <h1>
+      Contact Information
+    </h1>
+  );
 }
 // ========================================
 
