@@ -21,7 +21,6 @@ class MainPage extends 	React.Component {
         <div class="main">
           <Drawer class="drawer"/>
 	  <Router>
-	    <Link to="/contact">Contact</Link>
           <Switch>
             <Route path="/contact">
 	      <Contact />

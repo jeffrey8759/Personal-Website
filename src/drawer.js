@@ -53,7 +53,9 @@ export default function TemporaryDrawer() {
           link = "https://www.linkedin.com/in/jeffrey-cheng23/"
         } else if (props.link === 'GitHub'){
           link = "https://github.com/jeffrey8759?tab=repositories"
-        }
+        } else if (props.link === 'Contact'){
+	  link = "/contact";
+	}
         return <ListItem button component="a" {...props} href={link}/>;
     }
 
