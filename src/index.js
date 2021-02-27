@@ -48,15 +48,22 @@ function About() {
               I am a recent graduate from the University of Washington with a Bachelor degree in Computer Science.
               I am passionate about data science and front-end development. In school, majority of my coursework focused
               on Machine Learning and AI, and I have research experience in data analysis. Outside of school, I am a
-              self-taught front-end developer that loves making single page application and cool looking websites.
+              self-taught front-end developer that loves making web application and cool looking websites.
           </p>
-          <p id='research'>
-              At the University of Washington, I had the chance to work as researcher under Dr. Jeff Ban. The research was 
-              focused on route optimization for a ride sourcing service, Didi. My tasks included importing and organizing 
-              the ride records and visualizing them to validate the dataset before feeding the data into our Markov decision
-              model. The data we fed into the model came from the formation of traffic analysis zone, which I created from 
-              iterating through each ride record.
+          <p id='interests'>
+              One of my hobbies is playing video games with my friends. The games I play the most are League of Legends and
+              Minecraft. If you are interested in gaming with us, join our Discord <a id='discord_link' href="https://discord.gg/yPtypMVcRY">here</a>.
+  
           </p>
+          <p id='current projects'>
+              I am currently working on some other web projects and I plan on hosting them on my Raspberry Pi. Hopefully you will
+              get to see the links of those programs here someday.
+          </p>
+          <p id='more info about career'>
+              For more information about my academic or career background, check out my resume in the file section of the menu. If you need
+              to contact me about career opportunities or just want to chat, you can contact me via methods in the contact section!
+          </p>
+
           </div>
         </div>
   );

@@ -36,7 +36,7 @@
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: Black;
+ background-color: Black;
   color: white;
 }
 
@@ -107,6 +107,7 @@ h2 {
 
 #about-myself{
   margin-top: 100px;
+  margin: 10% 20%;
   text-align: center;
   font-size: 20px;
   text-shadow:
@@ -123,4 +124,8 @@ h2 {
 
 .drawer{
   position: fixed;
+}
+
+#discord_link{
+  color:red;
 }
