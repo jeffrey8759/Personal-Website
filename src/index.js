@@ -41,7 +41,7 @@ function About() {
   return (
     <div class='mainFrame'>
           <h1> I'm Jeffrey. </h1>
-          <h2> a web developer. </h2>
+          <h3> a web developer. </h3>
           <img id='profile_pic' src={logo}/>
           <div id='about-myself'>
           <p id='intro-p'>
@@ -70,10 +70,17 @@ function About() {
 }
 function Contact() {
   return (
-    <h1>
-      Contact Information
-    </h1>
-  );
+    <div class='mainFrame'>
+      <h2>
+        Contact Information
+      </h2>
+      <div id='content'>
+        <p>
+         Email: chengjeffrey8759@gmail.com
+        </p>
+      </div>
+    </div>
+     );
 }
 // ========================================
 
