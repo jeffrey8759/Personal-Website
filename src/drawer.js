@@ -99,7 +99,7 @@ export default function TemporaryDrawer() {
           <div>
             {['left'].map((anchor) => (
                       <React.Fragment key={anchor}>
-                        <Fab style={{top:20, left:20, position:'fixed'}} variant="contained" size="large" onClick={toggleDrawer(anchor, true)}>
+                        <Fab style={{marginLeft: 20, position:'fixed'}} variant="contained" size="large" onClick={toggleDrawer(anchor, true)}>
 													<MenuIcon/>
                           &nbsp; Menu
 												</Fab>

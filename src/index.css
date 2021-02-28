@@ -1,101 +1,24 @@
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: white;
-  font-family: Arial;
-  width: 100%;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: black;
-  text-align: center;
-  padding: 14px 24px;
-  text-decoration: none;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 24px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
- background-color: Black;
-  color: white;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: White;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: Black;
-  color: white;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-body {
-  background-image: url("DesktopPapersco-ve36-cool-dark-background-pattern-abstract.jpg");
-  margin: 0px;
+body, html {
+  height: 100%;
+  background-image: url("mountain.jpg");
+  margin-top: 0px;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
 h1 {
-  margin-top: 100px;
+  padding-top: 100px;
   margin-bottom: 20px;
   text-align: center;
   font-size: 80px;
-  color: white;
   font-family: Lucida Handwriting;
-  font-weight: 200;
 }
 
 h2 {
-  margin-top: 0px;
   margin-bottom: 100px;
   text-align: center;
   font-size: 20px;
-  color: white;
-  font-family: Lucida Sans;
 }
 
 #profile_pic{
@@ -106,20 +29,17 @@ h2 {
 }
 
 #about-myself{
-  margin-top: 100px;
-  margin: 10% 20%;
+  margin: 0% 10%;
+  padding: 10% 0;
   text-align: center;
   font-size: 20px;
-  text-shadow:
-        0.07em 0 black,
-        0 0.07em black,
-        -0.07em 0 black,
-        0 -0.07em black;
-  color: white;
 }
 
 .mainFrame{
-  margin: 0px 20%;
+  margin-top: 0;
+  margin: 0 27%;
+  height: 100%;
+  background-color: #e0d3af;
 }
 
 .drawer{

@@ -39,12 +39,12 @@ class MainPage extends 	React.Component {
 
 function About() {
   return (
-    <div class='mainFrame'> 
+    <div class='mainFrame'>
           <h1> I'm Jeffrey. </h1>
-          <h2> a front-end developer. </h2>
+          <h2> a web developer. </h2>
           <img id='profile_pic' src={logo}/>
           <div id='about-myself'>
-          <p id='intro-p'> 
+          <p id='intro-p'>
               I am a recent graduate from the University of Washington with a Bachelor degree in Computer Science.
               I am passionate about data science and front-end development. In school, majority of my coursework focused
               on Machine Learning and AI, and I have research experience in data analysis. Outside of school, I am a
